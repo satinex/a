@@ -1,0 +1,470 @@
+import {
+    r as i, N as o, j as t, c as w, h as ae, m as re, S as M, E as g, y as V, L as se, F as oe, a7 as ne, a8 as le, a9 as ie, aa as ce, ab as de, ac as fe, ad as pe, ae as me, af as ue
+}
+from "./index-COMadxcE.js";
+import {
+    P as A
+}
+from "./PlayIcon-DpJX8E68.js";
+import {
+    B as he, S as xe
+}
+from "./SignInModal-Cx4WyxNY.js";
+import {
+    E as u, a as S
+}
+from "./Home-DUau4Vg3.js";
+import {
+    u as I
+}
+from "./useMutation-BY9xL5PN.js";
+import "./react-CIqU3p0S.js";
+import "./vendor-BBcU-Gy9.js";
+
+// hi.js
+var ge = Object.defineProperty,
+    N = Object.getOwnPropertySymbols,
+    $ = Object.prototype.hasOwnProperty,
+    B = Object.prototype.propertyIsEnumerable,
+    F = (a, e, r) => e in a ? ge(a, e, {
+        enumerable: !0,
+        configurable: !0,
+        writable: !0,
+        value: r
+    }) : a[e] = r,
+    be = (a, e) => {
+        for (var r in e || (e = {}))
+            $.call(e, r) && F(a, r, e[r]);
+        if (N)
+            for (var r of N(e))
+                B.call(e, r) && F(a, r, e[r]);
+        return a
+    },
+    ve = (a, e) => {
+        var r = {};
+        for (var s in a)
+            $.call(a, s) && e.indexOf(s) < 0 && (r[s] = a[s]);
+        if (a != null && N)
+            for (var s of N(a))
+                e.indexOf(s) < 0 && B.call(a, s) && (r[s] = a[s]);
+        return r
+    };
+const W = i.forwardRef((a, e) => {
+    const r = a,
+        {
+            alt: s,
+            color: c = "currentColor",
+            size: f = "1em",
+            weight: n = "regular",
+            mirrored: m = !1,
+            children: h,
+            weights: p
+        } = r,
+        y = ve(r, ["alt", "color", "size", "weight", "mirrored", "children", "weights"]);
+    return o.createElement("svg", be({
+        ref: e,
+        xmlns: "http://www.w3.org/2000/svg",
+        width: f,
+        height: f,
+        fill: c,
+        viewBox: "0 0 256 256",
+        transform: m ? "scale(-1, 1)" : void 0
+    }, y), !!s && o.createElement("title", null, s), h, p.get(n))
+});
+W.displayName = "SSRBase";
+const we = W,
+    ye = new Map([
+        ["bold", o.createElement(o.Fragment, null, o.createElement("path", {
+            d: "M200,28H160a20,20,0,0,0-20,20V208a20,20,0,0,0,20,20h40a20,20,0,0,0,20-20V48A20,20,0,0,0,200,28Zm-4,176H164V52h32ZM96,28H56A20,20,0,0,0,36,48V208a20,20,0,0,0,20,20H96a20,20,0,0,0,20-20V48A20,20,0,0,0,96,28ZM92,204H60V52H92Z"
+        }))],
+        ["duotone", o.createElement(o.Fragment, null, o.createElement("path", {
+            d: "M208,48V208a8,8,0,0,1-8,8H160a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8h40A8,8,0,0,1,208,48ZM96,40H56a8,8,0,0,0-8,8V208a8,8,0,0,0,8,8H96a8,8,0,0,0,8-8V48A8,8,0,0,0,96,40Z",
+            opacity: "0.2"
+        }), o.createElement("path", {
+            d: "M200,32H160a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm0,176H160V48h40ZM96,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V48A16,16,0,0,0,96,32Zm0,176H56V48H96Z"
+        }))],
+        ["fill", o.createElement(o.Fragment, null, o.createElement("path", {
+            d: "M216,48V208a16,16,0,0,1-16,16H160a16,16,0,0,1-16-16V48a16,16,0,0,1,16-16h40A16,16,0,0,1,216,48ZM96,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V48A16,16,0,0,0,96,32Z"
+        }))],
+        ["light", o.createElement(o.Fragment, null, o.createElement("path", {
+            d: "M200,34H160a14,14,0,0,0-14,14V208a14,14,0,0,0,14,14h40a14,14,0,0,0,14-14V48A14,14,0,0,0,200,34Zm2,174a2,2,0,0,1-2,2H160a2,2,0,0,1-2-2V48a2,2,0,0,1,2-2h40a2,2,0,0,1,2,2ZM96,34H56A14,14,0,0,0,42,48V208a14,14,0,0,0,14,14H96a14,14,0,0,0,14-14V48A14,14,0,0,0,96,34Zm2,174a2,2,0,0,1-2,2H56a2,2,0,0,1-2-2V48a2,2,0,0,1,2-2H96a2,2,0,0,1,2,2Z"
+        }))],
+        ["regular", o.createElement(o.Fragment, null, o.createElement("path", {
+            d: "M200,32H160a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm0,176H160V48h40ZM96,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V48A16,16,0,0,0,96,32Zm0,176H56V48H96Z"
+        }))],
+        ["thin", o.createElement(o.Fragment, null, o.createElement("path", {
+            d: "M200,36H160a12,12,0,0,0-12,12V208a12,12,0,0,0,12,12h40a12,12,0,0,0,12-12V48A12,12,0,0,0,200,36Zm4,172a4,4,0,0,1-4,4H160a4,4,0,0,1-4-4V48a4,4,0,0,1,4-4h40a4,4,0,0,1,4,4ZM96,36H56A12,12,0,0,0,44,48V208a12,12,0,0,0,12,12H96a12,12,0,0,0,12-12V48A12,12,0,0,0,96,36Zm4,172a4,4,0,0,1-4,4H56a4,4,0,0,1-4-4V48a4,4,0,0,1,4-4H96a4,4,0,0,1,4,4Z"
+        }))]
+    ]);
+var je = Object.defineProperty,
+    Ve = Object.defineProperties,
+    Se = Object.getOwnPropertyDescriptors,
+    z = Object.getOwnPropertySymbols,
+    Ne = Object.prototype.hasOwnProperty,
+    Ee = Object.prototype.propertyIsEnumerable,
+    T = (a, e, r) => e in a ? je(a, e, {
+        enumerable: !0,
+        configurable: !0,
+        writable: !0,
+        value: r
+    }) : a[e] = r,
+    Pe = (a, e) => {
+        for (var r in e || (e = {}))
+            Ne.call(e, r) && T(a, r, e[r]);
+        if (z)
+            for (var r of z(e))
+                Ee.call(e, r) && T(a, r, e[r]);
+        return a
+    },
+    He = (a, e) => Ve(a, Se(e));
+const k = i.forwardRef((a, e) => o.createElement(we, He(Pe({
+    ref: e
+}, a), {
+    weights: ye
+})));
+k.displayName = "Pause";
+const D = ({
+        className: a,
+        size: e = "medium",
+        text: r = "Compiling ..."
+    }) => {
+        const s = {
+                small: "text-xs",
+                medium: "text-sm",
+                large: "text-base"
+            },
+            c = r.split("");
+        return t.jsx("span", {
+            className: w("font-doto inline-flex items-center", a),
+            children: c.map((f, n) => t.jsx("span", {
+                className: w("animate-bounce", s[e], "inline-block opacity-75"),
+                style: {
+                    animationDelay: `${n * 50}ms`,
+                    animationDuration: "0.7s"
+                },
+                children: f
+            }, n))
+        })
+    },
+    Me = (a = 1e3) => {
+        const [e, r] = i.useState(!1);
+        i.useEffect(() => {
+            const s = setInterval(() => {
+                r(c => !c)
+            }, a);
+            return () => clearInterval(s)
+        }, [a])
+    },
+    Ae = "prove-status",
+    Oe = () => {
+        const [a, e] = i.useState(!1), r = i.useRef(null), s = i.useRef(!1), c = () => {
+            s.current = !0,
+                r.current ? .postMessage("start")
+        }, f = () => {
+            s.current = !1,
+                r.current ? .postMessage("stop")
+        };
+        return i.useEffect(() => {
+            const n = new BroadcastChannel(Ae);
+            r.current = n;
+            const m = h => {
+                const p = h.data;
+                p === "start" ? e(!0) : p === "stop" && e(!1)
+            };
+            return n.addEventListener("message", m), () => {
+                n.removeEventListener("message", m),
+                    s.current && n.postMessage("stop"),
+                    n.close()
+            }
+        }, []), {
+            isOtherTabProving: a,
+            notifyStartProving: c,
+            notifyStopProving: f
+        }
+    },
+    Ze = ({
+        onClick: a,
+        isProving: e,
+        isCompiling: r,
+        isCanceling: s
+    }) => {
+        const c = () => e && !r ? t.jsxs("div", {
+            className: "flex items-center gap-2",
+            children: [t.jsx(k, {
+                size: 20,
+                weight: "fill"
+            }), "Stop proving"]
+        }) : e && r ? t.jsx("div", {
+            className: "flex items-end",
+            children: t.jsx(D, {})
+        }) : s ? t.jsx("div", {
+            className: "flex items-end",
+            children: t.jsx(D, {
+                text: "Canceling..."
+            })
+        }) : t.jsxs(t.Fragment, {
+            children: ["prover", t.jsx(A, {})]
+        });
+        return t.jsx(he, {
+            className: w("h-20 w-full", e && "bg-primary-500/50 text-white shadow-[inset_0_-4px_rgba(9,9,11,0.5),0_4px_rgba(9,9,11,0.5)] hover:pt-3 hover:pb-4 hover:shadow-[inset_0_-4px_rgba(9,9,11,0.5),0_4px_rgba(9,9,11,0.5)] active:pt-3 active:pb-4 active:shadow-[inset_0_-4px_rgba(9,9,11,0.5),0_4px_rgba(9,9,11,0.5)]"),
+            disabled: e && r || s,
+            onClick: a,
+            children: c()
+        })
+    },
+    _e = 7,
+    Re = 30,
+    Ce = ({
+        isProving: a
+    }) => (Me(500),
+        t.jsxs("div", {
+            className: w("relative flex h-[281px] overflow-hidden", a && "shadow-[0_0_40px] shadow-black/10"),
+            children: [t.jsx(me, {
+                className: "absolute -top-1 right-6 z-10",
+                vertical: !0
+            }), t.jsx("table", {
+                className: "absolute -left-1.5",
+                children: t.jsx("tbody", {
+                    children: Array(_e).fill(0).map((e, r) => t.jsx("tr", {
+                        className: "flex",
+                        children: Array(Re).fill(0).map((s, c) => t.jsx("td", {
+                            className: w("flex size-10 max-h-10 min-h-10 max-w-10 min-w-10 items-center justify-center border border-transparent transition-all duration-[0.05s] ease-in-out", a && "border-white/10", a && Math.random() < .1 && "border-white/70 bg-white/10"),
+                            children: t.jsx("p", {
+                                className: "text-14 text-center text-white/50",
+                                children: Math.random() < .5 ? 0 : 1
+                            })
+                        }, c))
+                    }, r))
+                })
+            })]
+        })),
+    Be = ({
+        isCompiled: a,
+        worker: e,
+        verifyChallengeKeyProof: r,
+        refetchData: s,
+        initializeWorker: c,
+        setIsCompiled: f
+    }) => {
+        const [n, m] = i.useState(!1), [h, p] = i.useState(!1), y = i.useRef(!1), [Y] = I(pe), [G] = I(ue), {
+            isAuthen: E,
+            openOrochiID: U,
+            userInfo: O
+        } = ae(), [q, P] = i.useState(!1), Z = re(), [_, R] = i.useState(parseInt(M(g.ProofVerifiedStep) ? .step || "0")), {
+            isOtherTabProving: J,
+            notifyStartProving: K,
+            notifyStopProving: Q
+        } = Oe(), X = () => {
+            U(),
+                P(!1)
+        }, H = i.useRef(0), C = async() => {
+            try {
+                if (!r) {
+                    if (!a)
+                        return;
+                    throw new Error("Verify Challenge Key is not set. Maybe the compile process has not done yet!")
+                }
+                const l = M(g.ProofVerifiedStep);
+                l && (await G({
+                            variables: {
+                                step: parseInt(l.step),
+                                proof: l.zkp,
+                                verifyChallengeKeyProof: r
+                            }
+                        }),
+                        ce(g.ProofLogList, {
+                            proof: l.zkp.proof,
+                            step: parseInt(l.step),
+                            createdAt: new Date().toISOString(),
+                            status: de.Verified
+                        })),
+                    await s()
+            } catch (l) {
+                V.error(l instanceof Error ? l.message : "Challenge verified failed!")
+            } finally {
+                fe(g.ProofVerifiedStep),
+                    R(0)
+            }
+        }, ee = async() => {
+            H.current < 2 ? (H.current++,
+                e && n ? await j(e) : e || V.warning("Worker is not initialized. Please refresh the page.")) : (console.warn("Worker state may be broken. Recreating..."),
+                setTimeout(() => {
+                    e && e.terminate(),
+                        c(),
+                        H.current = 0
+                }, 1e4))
+        };
+        i.useEffect(() => {
+            y.current = n;
+            const l = e,
+                d = async x => {
+                    const {
+                        status: b,
+                        type: v
+                    } = x.data;
+                    if (v === u.Prove && b === S.Success) {
+                        const {
+                            result: L
+                        } = x.data;
+                        n && (ie(g.ProofVerifiedStep, L),
+                                R(L.step)),
+                            y.current && l && await j(l)
+                    }
+                    v === u.Stop && b === S.Success && (m(!1),
+                            p(!1)),
+                        v === u.Prove && b === S.Error && (console.log("Worker error. Restarting..."),
+                            await ee())
+                };
+            return l ? .addEventListener("message", async x => {
+                    const {
+                        type: b,
+                        status: v
+                    } = x.data;
+                    b === u.Compile && v === S.Success && (f(!0),
+                        E && n && await j(l))
+                }),
+                e && (e.onmessage = d), () => {
+                    e && (e.onmessage = null,
+                        e.removeEventListener("message", d))
+                }
+        }, [e, r, n, h, _]);
+        const j = async l => {
+                if (E)
+                    try {
+                        const d = M(g.ProofVerifiedStep);
+                        if (!d || d.step >= 15) {
+                            await C();
+                            const x = await Y();
+                            l.postMessage({
+                                type: u.Prove,
+                                data: {
+                                    step: 0,
+                                    original: x.data ? .generateChallenge.challenge
+                                }
+                            })
+                        } else
+                            l.postMessage({
+                                type: u.Prove,
+                                data: d
+                            })
+                    } catch (d) {
+                        V.error(d instanceof Error ? d.message : "Cannot fetching challenge data!")
+                    }
+            },
+            te = async() => {
+                if (!E) {
+                    P(!0);
+                    return
+                }
+                if (e) {
+                    if (n)
+                        p(!0),
+                        await C(),
+                        e ? .postMessage({
+                            type: u.Stop,
+                            data: void 0
+                        }),
+                        Q();
+                    else {
+                        if (J) {
+                            V.error("You are already proving in another tab!");
+                            return
+                        }
+                        p(!1),
+                            K(),
+                            a && j(e)
+                    }
+                    m(!n)
+                }
+            };
+        return t.jsxs("div", {
+            className: "rounded-2 h-fit flex-1 border border-white/10 bg-white/10 shadow-[0_8px_16px] shadow-black/50 backdrop-blur-[50px]",
+            children: [t.jsxs("div", {
+                children: [t.jsx(Ce, {
+                    isProving: n
+                }), t.jsxs("div", {
+                    className: "flex flex-col gap-4 p-4 md:gap-6 md:p-6",
+                    children: [t.jsxs("div", {
+                        className: "flex flex-wrap justify-center border-y border-white/10",
+                        children: [t.jsxs("div", {
+                            className: "flex w-1/2 flex-col items-center justify-center gap-1 border-r border-white/10 py-3 md:flex-1 md:border-r",
+                            children: [t.jsx("p", {
+                                className: "text-24 font-doto text-primary-300 font-bold",
+                                children: se(O ? .totalReward || 0)
+                            }), t.jsx("p", {
+                                className: "text-12 font-semibold text-white/50 uppercase",
+                                children: "$ON EARNED"
+                            })]
+                        }), t.jsxs("div", {
+                            className: "flex w-1/2 flex-col items-center justify-center gap-1 border-white/10 py-3 md:flex-1 md:border-r",
+                            children: [t.jsx("p", {
+                                className: "text-24 font-doto text-zk-green-500 font-bold",
+                                children: oe.from(O ? .totalProof || 0).prettyAuto("en-US")
+                            }), t.jsx("p", {
+                                className: "text-12 font-semibold text-white/50 uppercase",
+                                children: "Verified proofs"
+                            })]
+                        }), t.jsxs("div", {
+                            className: "flex w-full flex-col items-center justify-center gap-1 border-t border-white/10 py-3 md:flex-1 md:border-none",
+                            children: [t.jsx("p", {
+                                className: "text-24 font-doto text-zk-blue-300 font-bold",
+                                children: _
+                            }), t.jsx("p", {
+                                className: "text-12 font-semibold text-white/50 uppercase",
+                                children: "New proofs"
+                            })]
+                        })]
+                    }), t.jsx("p", {
+                        className: "text-12 text-center text-white/50",
+                        children: "One click to prove data"
+                    }), t.jsx(Ze, {
+                        isCompiling: !a,
+                        isCanceling: h,
+                        onClick: te,
+                        isProving: n
+                    })]
+                })]
+            }), t.jsxs("div", {
+                className: "rounded-b-2 bg-deep-black flex flex-col border-t border-white/10 md:flex-row",
+                children: [t.jsxs("div", {
+                    className: "flex flex-1 cursor-pointer items-center justify-between gap-4 border-b border-white/10 p-4 hover:bg-white/[8%] md:border-r md:p-6",
+                    onClick: () => Z("/rewards"),
+                    children: [t.jsxs("div", {
+                        className: "flex items-center gap-2 md:gap-4",
+                        children: [t.jsx(ne, {
+                            size: 20,
+                            className: "text-secondary-400"
+                        }), t.jsx("p", {
+                            className: "text-18 font-doto leading-6 font-bold uppercase",
+                            children: "Your Rewards"
+                        })]
+                    }), t.jsx(A, {
+                        fill: "white"
+                    })]
+                }), t.jsxs("div", {
+                    className: "flex flex-1 cursor-pointer items-center justify-between gap-4 p-4 hover:bg-white/[8%] md:p-6",
+                    onClick: () => Z("/referral-program"),
+                    children: [t.jsxs("div", {
+                        className: "flex items-center gap-2 md:gap-4",
+                        children: [t.jsx(le, {
+                            size: 20,
+                            className: "text-secondary-400"
+                        }), t.jsx("p", {
+                            className: "text-18 font-doto leading-6 font-bold uppercase",
+                            children: "Referral Program"
+                        })]
+                    }), t.jsx(A, {
+                        fill: "white"
+                    })]
+                })]
+            }), t.jsx(xe, {
+                isModalOpen: q,
+                openModalToggle: P,
+                submitButton: X
+            })]
+        })
+    };
+export {
+    Be as
+    default
+};
